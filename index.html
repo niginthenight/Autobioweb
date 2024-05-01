@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MPage</title>
+  <style>
+    body, header, main, footer {
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #F0EBE3;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header, footer {
+      background-color: #EADBC8;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      flex-shrink: 0
+    }
+
+    header h1 {
+      margin-bottom: 5px;
+    }
+
+    .made-by {
+      font: italic 14px Arial, sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+      text-align: justify;
+      display: flex;
+      flex-grow: 1;
+    }
+
+    .content-container {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-top: 20px;
+      flex-grow: 1;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+      flex-grow: 1;
+    }
+
+    .image-container img {
+      width: 90%;
+      max-width: 800px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      object-fit: cover;
+    }
+
+    footer {
+      text-align: left;
+      box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    
+    .important-text {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Autobiography</h1>
+    <p class="made-by">Made by Alex Leal</p>
+  </header>
+  <main>
+    <div class="image-container">
+      <img src="imgs/1.JPG" alt="Image 1">
+    </div>
+    <div class="content-container">
+      <h2>𝔸𝕦𝕥𝕠𝕓𝕚𝕠𝕘𝕣𝕒𝕡𝕙𝕪</h2>
+      <p>Im Alexis Avery Leal from Darangan Binangonan Rizal I was born on <span class="important-text">February 14 2007</span> in Cardona Rizal and I'm <span class="important-text">17 years old</span>. I have <span class="important-text">3 siblings</span> and I am the youngest among them all. My hobbies are <span class="important-text">playing guitar, online games, and playing badminton</span>. Me and my family <span class="important-text">loves traveling</span> and this is how we create memories and spend quality time. Me and my brother started traveling when I was only <span class="important-text">six years old</span> and my first country was <span class="important-text">Hong Kong</span> at first I was scared because it was only us two traveling and sometimes we got lost around but we managed and got the hang of it.  We made friends there too with some fellow Pinoys who are working there they helped us familiarize the place around our hotel and showed us where the transportation is located. When we got home in the Philippines, I told my family about our story of how we got lost, had fun, and made friends. That was the time I fell in love with traveling and airplanes.</p>
+    </div>
+    <div class="image-container">
+      <img src="imgs/3.JPG" alt="Image 3">
+    </div>
+  </main>
+  <footer>
+    <p class="made-by">Alex Leal</p>
+    </div>
+  </footer>
+</body> 
